@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<section class="hero">
+    <div class="container hero__container">
+        <div class="grid">
+            <div class="settings-block">
+                <label for="horizontal">Horisontal:</label>
+                <input type="range" id="horizontal" class="horizontal range" min="-100" max="100" value="0">
+                <label for="vertical">Vertical:</label>
+                <input type="range" id="vertical" class="vertical range" min="-100" max="100" value="0">
+                <label for="blur">Blur:</label>
+                <input type="range" id="blur" class="blur range" max="50" value="0">
+                <label for="spread">Spread:</label>
+                <input type="range" id="spread" class="spread range" max="50" value="0">
+                <label for="color">Color:</label>
+                <input type="color" id="color" class="color">
+            </div>
+            <div class="box-padding">
+                <div class="box">
+                    <div class="box-shadow-code"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<script src="./js/script.js"></script>
+
+</body>
+</html>
